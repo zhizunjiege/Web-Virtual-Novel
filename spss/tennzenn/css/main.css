@@ -1,0 +1,22 @@
+body{ 
+	background:url(../pictures/bg/0.jpg) fixed center center no-repeat; 
+	background-size:100% 100%;
+	cursor:url(../sysico/sys_cur.png),auto;
+}
+.stage{
+	border:0;
+	width:1280px; 
+	height:720px;
+	position:absolute; 
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+  }
+#mainStage{
+	visibility:visible;
+	z-index:0;
+}
+#secondStage{
+	visibility:hidden;
+	z-index:1;
+}

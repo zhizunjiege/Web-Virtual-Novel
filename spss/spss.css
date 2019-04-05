@@ -1,0 +1,43 @@
+@font-face
+{
+font-family:gamefonts_jn;
+src: url("tennzenn/fonts/Passions Conflict ROB.ttf");
+font-weight:bold;
+}
+body{
+	margin:0;
+	overflow:hidden;
+}
+#bg{
+	width:100%;
+	height:auto;
+}
+#stage{ 
+	width:100%;
+	position:relative;
+	cursor:url(./tennzenn/sysico/sys_cur.png),auto;
+}
+.stage{
+	border:0;
+	width:50%; 
+	position:absolute; 
+	top:50%;
+	left:50%;
+	text-align:center;
+	transform:translate(-50%,-50%);
+}
+.game{
+	width:48%;
+	border-radius:20px;
+	display:inline-block;
+	text-align:center;
+	color:#012295;
+	margin:1% 0;
+	font-size:1.4em;
+	font-family:gamefonts_jn;
+	background:radial-gradient(ellipse,#b4f1ff80 30%,#b4f1ff00 100%);
+}
+.stage>p:hover{
+	background:radial-gradient(ellipse,#b4f1ff80 80%,#b4f1ff00 100%);
+}
+  

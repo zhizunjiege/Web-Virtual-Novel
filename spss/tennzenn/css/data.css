@@ -1,0 +1,176 @@
+#mainStage{
+	width:1280px;
+	height:720px;
+	position:relative;
+	cursor:url(../sysico/sys_cur.png),auto;
+	background-color:#f8eeee94;
+}
+
+#title{
+	display:inline-block;
+	width:20%;
+	height:8%;
+	text-align:center;
+	letter-spacing:1em;
+}
+#pages{
+	width:75%;
+	height:8%;
+	float:right;
+}
+#pages button{
+	width:4%;
+	height:100%;
+	float:left;
+	border-right:1px white dashed;
+	border-bottom:2px white solid;
+	background-color:#17b1ca;
+}
+#pages button:first-child{
+	border-left:1px white dashed;
+}
+#pages button:hover{
+	background-color:#24737f;
+}
+#dataList{
+	width:90%;
+	height:80%;
+	position:relative;
+	left:5%;
+}
+
+#dataList>div{	
+	width:23%;
+	height:48%;
+	margin:5.76px 1%;
+	border-radius:12px;
+	position:relative;
+	float:left;
+	background-color:#86c7ecb8;
+}
+#dataList>div:hover{
+	background-color:#8c86ecc7;
+}
+#dataList img{
+	width:100%;
+	height:auto;
+}
+#info{
+	width:88%;
+	height:4%;
+	position:relative;
+	left:6%;
+	background-color:#51bbb199;
+}
+#info img{
+	height:100%;
+	width:auto;
+}
+#help{
+	float:right;
+}
+#info_content{
+	display:inline-block;
+	width:92%;
+	height:100%;
+	position:relative;
+	left:1%;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-family:gamefonts_zh;
+	font-size:1.2em;
+	line-height:28.8px;
+}
+#functions{
+	width:80%;
+	height:8%;
+	position:relative;
+	left:10%;
+	text-align:center;
+}
+#functions>button{
+	width:10%;
+	margin:0 2%;
+	color:black;
+	vertical-align:bottom;
+	background-color:#ffffff00;
+}
+#functions>button:hover{
+	background:radial-gradient(ellipse,#9dafeccc 30%, #ffffff00 70%);
+}
+.dataCap{
+	width:100%;
+	height:10%;
+}
+.dataNum{
+	width:12%;
+	height:100%;
+	font-size:1.4em;
+	border-top-left-radius:12px;
+	display:inline-block;
+	text-align:center;
+	background-color:#59c2e2ee;
+}
+.saveDate{
+	width:88%;
+	height:100%;
+	float:right;
+	border-top-right-radius:12px;
+	line-height:32px;
+	text-align:center;
+	background-color:#4747a7dd;
+}
+.character{
+	width:100%;
+	height:1.5em;
+	border-bottom:2px white solid;
+}
+.name{
+	width:20%;
+	height:100%;
+	display:inline-block;
+	text-align:center;
+}
+.gameDate{
+	width:80%;
+	height:100%;
+	float:right;
+	line-height:1.5em;
+	text-align:center;
+}
+.scenario{
+	white-space:nowrap;
+	width:88%;
+	height:1.5em;
+	line-height:1.5em;
+	position:relative;
+	left:6%;
+	top:4px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color:#1f0a0a;
+	font-family:gamefonts_zh;
+}
+.info{
+	width:94%;
+	height:1.8em;
+	text-align:center;
+	position:relative;
+	left:3%;
+	top:10px;
+	border-radius:8px;
+	padding:0;
+	margin:0;
+	border:0;
+	outline:0;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	cursor:inherit;
+}
+.info:hover{
+	box-shadow:0 0 8px 0 #bff341ee;
+}
+
+

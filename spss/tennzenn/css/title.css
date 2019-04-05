@@ -1,0 +1,25 @@
+#mainStage{
+	background:url(../pictures/bg/title.jpg) center center no-repeat; 
+	background-size:100% 100%;
+	width:1280px; 
+	height:720px;
+	position:relative;
+	cursor:url(../sysico/sys_cur.png),auto;
+}
+#sysOpt{
+	width:20%;
+	height:60%;
+	position:absolute;
+	left:0;
+	top:20%;
+	background:rgba(0,0,0,0);
+	cursor:inherit;
+}
+#sysOpt button{
+	width:100%;
+	height:25%;
+	background:radial-gradient(ellipse,rgba(255,255,255,0.1) 10%,rgba(255,255,255,0) 70%);
+}
+#sysOpt button:hover{
+	background:radial-gradient(ellipse,rgba(255,255,255,0.4) 30%,rgba(255,255,255,0) 70%);
+}

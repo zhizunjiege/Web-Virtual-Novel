@@ -1,0 +1,46 @@
+@font-face
+{
+font-family:gamefonts_jn;
+src: url("../fonts/Passions Conflict ROB.ttf");
+font-weight:bold;
+}
+@font-face
+{
+font-family:gamefonts_zh;
+src: url("../fonts/font01.ttf");
+}
+@font-face{
+	font-family:gamefonts_title;
+	src:url("../fonts/Outer_Space.ttf");
+	font-weight:bold;
+}
+body{
+	margin:0;
+}
+button,p{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:none;
+	cursor:inherit;
+}
+
+.bt_word{
+	color:#f4f3e2;
+	font-family:gamefonts_jn;
+	font-size:1.8em;
+	font-weight:bold;
+	opacity:0.8;
+}
+.word{
+	color:white;
+	font-family:gamefonts_zh;
+	font-size:1.8em;
+	opacity:1;
+}
+.title_word{
+	color:#98abeb;
+	font-family:gamefonts_title;
+	font-size:4em;
+	opacity:1;
+}
